@@ -1,0 +1,89 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 6fr 1fr;
+    ;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+div {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div :hover {
+    color: rgb(255, 153, 0);
+}
+
+
+
+
+main {
+    color: black;
+    text-align: center;
+    border-style: dashed;
+    border-color: cadetblue;
+    padding: 50px;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+footer {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+img {
+    max-width: 65%;
+    height: auto;
+    padding: 25px;
+    text-align: center;
+    border: 2px;
+    border-style: dotted;
+    border-color: darkgreen;
+}
+
+li {
+    font-weight: bold;
+    text-align: left;
+}
+
+ol {
+    display: grid;
+    grid-template-rows: auto;
+    border: 3px;
+    border-style: dotted;
+    border-color: darkgreen;
+
+}
+
+
+
+
+#låtarmain {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
